@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+    height: 0 auto;
+}
+
+.header{
+    margin-top: 15px;
+}
+
+.wrapper{
+    max-width: 1400px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+main{
+    margin-top: 20px;
+}
+
+.main__tumblers{
+    padding: 20px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+.tabs{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.goods-list{
+    margin-top: 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.good-cart{
+    width: 250px;
+    padding: 15px;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
