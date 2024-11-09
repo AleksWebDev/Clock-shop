@@ -4,6 +4,7 @@ const renderCards = (cards) => {
 
     const arr = cards.carts;
 
+    
     const render = (arr) => {
         arr.forEach(cart => {
             console.log(cart);
@@ -16,11 +17,11 @@ const renderCards = (cards) => {
     const fillHTML = ({id, brand, name, image, price}) => {
         return `
             <li class="good-cart" data-id="${id}" data-brand="${brand}">
-                        <img src="${image}" alt="casio">
-                        <div class="name">${name}</div>
-                        <div class="price">${price}</div>
-                        <button class="to-card">В корзину</button>
-                    </li>
+                <img src="${image}" alt="casio">
+                <div class="name">${name}</div>
+                <div class="price">${price} ₽</div>
+                <button class="to-card">В корзину</button>
+            </li>
         `
     }
 

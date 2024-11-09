@@ -1,8 +1,8 @@
 const carts = [
     {
         "id": 1,
-        "brand": "casio",
-        "name": "Мужские часы CASIO G-2900F-8VER",
+        "brand": "g-shock",
+        "name": "Мужские часы G-Shock G-2900F-8VER",
         "url": "#",
         "image": "./img/goods/casio-g-2900f-8ver_images_1650372917.jpg",
         "price": 1720.00
