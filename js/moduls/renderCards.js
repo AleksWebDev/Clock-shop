@@ -1,8 +1,8 @@
 const renderCards = (cards) => {
 
     const goodsContainer = document.querySelector('.goods-list');
-
-    const arr = cards.carts;
+    goodsContainer.innerHTML = '';
+    const arr = cards.carts || cards;
 
     
     const render = (arr) => {

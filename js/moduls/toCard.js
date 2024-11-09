@@ -13,14 +13,16 @@ const toCard = () => {
 
     const deleteFromBasket = () =>{
         busketList.addEventListener('click', function(e){
-            const target = parseInt(e.target.parentNode.dataset.id);
-            const targetId = targetCards.find(card => card.id === target);
+            if(e.target.classList.contains('delete')){
+                const target = parseInt(e.target.parentNode.dataset.id);
+                const targetId = targetCards.find(card => card.id === target);
 
             
-            targetCards.splice(targetId, 1);
-            renderGoodsInBasket(targetCards);
-            saveToLS();
-            calculateTotalPurchase();
+                targetCards.splice(targetId, 1);
+                renderGoodsInBasket(targetCards);
+                saveToLS();
+                calculateTotalPurchase();
+            }
         })
     }
 

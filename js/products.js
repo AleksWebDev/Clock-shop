@@ -47,6 +47,14 @@ const carts = [
         "image": "./img/goods/6533206_images_1657626044.jpg",
         "price": 2416.00
     },
+    {
+        "id": 7,
+        "brand": "g-shock",
+        "name": "Мужские часы G-Shock G-92384ER",
+        "url": "#",
+        "image": "./img/goods/79946990_images_11571324122.jpg",
+        "price": 1720.00
+    }
 ]
 
 export default {carts};

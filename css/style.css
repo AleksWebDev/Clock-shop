@@ -29,6 +29,14 @@ img{
     margin-right: 10px;
 }
 
+.tabs-item{
+    cursor: pointer;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
 .wrapper{
     max-width: 1400px;
     padding: 0px 15px;
